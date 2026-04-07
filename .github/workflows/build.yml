@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-15-intel
+    runs-on: macos-26-xlarge
     outputs:
       artifact: ${{ steps.upload-artifact.outputs.artifact }}
     steps:
